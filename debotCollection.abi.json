@@ -34,6 +34,14 @@
 			]
 		},
 		{
+			"name": "numberChecks",
+			"inputs": [
+				{"name":"value","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "callMint",
 			"inputs": [
 			],

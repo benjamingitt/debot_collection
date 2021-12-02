@@ -46,15 +46,17 @@ contract CollectionDebot is Debot {
     }
 
     function startChecks(address value) public {
-       // NumberInput.get(tvm.functionId(numberChecks), "Which number do you want to mint NFT?");
-        callMint();
+        NumberInput.get(tvm.functionId(numberChecks), "Which number do you want to mint NFT?", 1, 100000);
         m_wallet = value;
 	}
 
-    // function numberChecks(uint128 value) public {
-    //   //  NumberInput.get(tvm.functionId(startChecks), "Which number do you want to mint NFT?");
-    //     m_number = value;
-	// }
+    function numberChecks(uint128 value) public {
+        m_number = value;
+        callMint();
+        _menu();
+
+
+	}
     function callMint() public view {
         optional(uint256) pubkey = 0;
         MintNFT(m_wallet).Mint{
@@ -66,7 +68,7 @@ contract CollectionDebot is Debot {
             expire: 0,
             callbackId: tvm.functionId(onSuccess),
             onErrorId: tvm.functionId(onError)
-        }(1);
+        }(m_number);
     }
     
 

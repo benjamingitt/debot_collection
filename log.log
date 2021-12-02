@@ -6,12 +6,12 @@ Input arguments:
 init_data: None
 is_update_tvc: None
 
-Seed phrase: "hair lava assume accident method say truth sort boss face nice fancy"
-Raw address: 0:955a9c9ef40e1bd752bcd35910046fce8f2b086681c66846fedb80e8f0818851
+Seed phrase: "tank blame term primary intact pigeon buffalo tenant poem timber color gas"
+Raw address: 0:f8a3186643dd9c656f26f18d184482219c311c4d8c49351bd114c8827bb954d6
 testnet:
-Non-bounceable address (for init): 0QCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUQ-W
-Bounceable address (for later access): kQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUVJT
+Non-bounceable address (for init): 0QD4oxhmQ92cZW8m8Y0YRIIhnDEcTYxJNRvRFMiCe7lU1gAt
+Bounceable address (for later access): kQD4oxhmQ92cZW8m8Y0YRIIhnDEcTYxJNRvRFMiCe7lU1l3o
 mainnet:
-Non-bounceable address (for init): UQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUbQc
-Bounceable address (for later access): EQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUenZ
+Non-bounceable address (for init): UQD4oxhmQ92cZW8m8Y0YRIIhnDEcTYxJNRvRFMiCe7lU1run
+Bounceable address (for later access): EQD4oxhmQ92cZW8m8Y0YRIIhnDEcTYxJNRvRFMiCe7lU1uZi
 Succeeded
