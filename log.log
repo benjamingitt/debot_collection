@@ -1,0 +1,17 @@
+Config: default
+Input arguments:
+     tvc: debotCollection.tvc
+      wc: None
+    keys: debotCollection.keys.json
+init_data: None
+is_update_tvc: None
+
+Seed phrase: "hair lava assume accident method say truth sort boss face nice fancy"
+Raw address: 0:955a9c9ef40e1bd752bcd35910046fce8f2b086681c66846fedb80e8f0818851
+testnet:
+Non-bounceable address (for init): 0QCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUQ-W
+Bounceable address (for later access): kQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUVJT
+mainnet:
+Non-bounceable address (for init): UQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUbQc
+Bounceable address (for later access): EQCVWpye9A4b11K801kQBG_OjysIZoHGaEb-24Do8IGIUenZ
+Succeeded
